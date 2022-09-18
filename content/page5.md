@@ -1,7 +1,7 @@
 ---
 title: "Page5"
 date: 2022-08-29T12:50:37+09:00
-draft: true
+draft: false
 author: Author Name
 ---
 

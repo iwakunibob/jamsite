@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2022-08-31T21:18:45+09:00
-draft: true
+draft: false
 author: Author Name
 type: contact
 ---

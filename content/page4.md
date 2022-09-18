@@ -1,7 +1,7 @@
 ---
 title: "Page4"
 date: 2022-08-29T01:11:15+09:00
-draft: true
+draft: false
 ---
 
 # Page 4 of JAMsite

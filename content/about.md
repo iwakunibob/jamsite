@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2022-08-29T23:50:39+09:00
-draft: true
+draft: false
 author: Bob
 type: topinfo
 ---

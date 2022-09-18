@@ -1,7 +1,7 @@
 ---
 title: "Page3"
 date: 2022-08-29T01:10:21+09:00
-draft: true
+draft: false
 ---
 
 # Page 3 of JAMsite

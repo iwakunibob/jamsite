@@ -1,7 +1,7 @@
 ---
 title: Hugo Dog
 date: 2022-08-29T01:22:46+09:00
-draft: true
+draft: false
 author: Robert M. Laurie
 ---
 

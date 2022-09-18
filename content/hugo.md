@@ -1,7 +1,7 @@
 ---
 title: "Hugo"
 date: 2022-08-30T15:42:23+09:00
-draft: true
+draft: false
 author: Robert Laurie
 ---
 

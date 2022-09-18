@@ -1,7 +1,7 @@
 ---
 title: Photo1
 date: 2022-08-29T13:01:14+09:00
-draft: true
+draft: false
 ---
 
 ## Heading for pretty dog
