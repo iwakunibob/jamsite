@@ -1,0 +1,10 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: JAMsite
+theme: tale
+copyright: Copywrite 2022 Robert M. Laurie
+disableKinds: [section]
+outputs:
+  home: 
+  - HTML
+  - JSON

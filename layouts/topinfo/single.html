@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+<main>
+  {{ partial "toc.html" . }}
+  <h1>
+    {{ .Title }}
+  </h1>
+  <hr>
+  <div class="Content">
+    {{ .Content }}
+  </div>
+
+  <h4>Function Tests:</h4>
+  <p>
+    Is 22 more than 8? <strong>{{ cond (gt 8 22) "YES" "NO" }} </strong>
+  </p>
+  <p>
+    Is 8 more than 22? <strong>{{ if gt 22 8 }} YES {{ else }} NO {{ end }} </strong>
+  </p>
+  <p>
+    {{ $mystring := "some-dashed-string" }}
+    {{ humanize $mystring}} <br>
+    {{md5 $mystring}}
+  </p>
+  <p>
+  {{ range (split "apple,grape,orange" ",") }}
+  {{ humanize . }} <br>
+  {{ end }}
+  </p>
+
+
+  <p>
+    {{ with .Site.GetPage "hugo-dog" }}
+    This context is for page: {{ .Title }} by {{.Params.author}}
+    {{end}}
+  </p>
+
+
+
+ 
+  {{ $myvariable := "A variable value as text" }}
+
+  <h4>{{ $myvariable }} </h4>
+
+  {{ $myvariable = "A NEW value" }}
+
+  <h3 style="color: red;">{{ $myvariable }} </h3>
+
+  <h4>Test</h4>
+  <p>
+    {{ .Site.Title }} <br>
+    {{ .Site.BaseURL }} <br>
+    {{ .Site.Copyright }}
+  </p>
+  <p>
+    {{- range .Site.Pages }}
+    {{ .Title }}: {{ .RelPermalink }}: {{ .Type}} <br>
+    {{- end }}
+  </p>
+
+  <small>{{ .Site.Copyright }} </small>
+</main>
+
+
+{{ end }}

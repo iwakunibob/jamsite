@@ -1,0 +1,9 @@
+
+{{ if eq .Type "photos" }}
+  {{- if .Params.author }}
+  <small><em>Photo taken by {{ .Params.author }}</em></small>
+  {{- else }}
+  <small><em>Photo taken by unknown</em></small>
+  {{- end }}
+<br><textarea style="width: 100%;font-size: 1.25rem; padding:1rem;" placeholder="Leave a comment for {{ .Title }}"></textarea>
+{{ end }}
