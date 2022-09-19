@@ -2,9 +2,9 @@
 			<div class="nav-container">
 				<a href="{{ "/" | relURL }}">
 					{{ if .IsPage }}
-						<h2 class="nav-title">{{ .Site.Title }}</h2>
+						<h2 class="nav-title">{{ .Site.Title }} Test T</h2>
 					{{ else }}
-						<h1 class="nav-title">{{ .Site.Title }}</h1>
+						<h1 class="nav-title">{{ .Site.Title }} Test F</h1>
 					{{ end }}
 				</a>
 				{{ partial "header-menu.html" . }}
