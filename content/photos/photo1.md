@@ -10,5 +10,5 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio culpa, quod maxime
 
 dog dog dog dog dog
 
-![Page photo](hugo-dog.jpg)
+![Page photo](/jamsite/hugo-dog.jpg)
 
