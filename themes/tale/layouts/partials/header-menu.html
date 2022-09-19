@@ -2,9 +2,9 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
         <li>
-            <a href="{{ .URL }}">
+            <a href="{{ .Site.BaseURL }}">
                 {{ .Pre }}
-                <span>{{ .Name }} test</span>
+                <span>{{ .Name }}</span>
                 {{ .Post }}
             </a>
         </li>
